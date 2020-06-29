@@ -5,15 +5,32 @@
 }
 
 h1 {
+	border:2px solid black;
+	background-color: orange;
 	font-family: Brushstroke, fantasy;
 	color: #000000;
+	text-align: center;
 }
 
 body {
-	background-image: url("background.jpg");
+	background-image: url("dest3.jpeg");
+	background-size: 100%;
 	background-color: #FEF5CA;
 
 }
+#div1:hover{
+	background-image: url(paris.jpeg);
+	background-size: 100% 100%;
+}
+#div2:hover{
+	background-image: url(mal.jpeg);
+	background-size: 100% 100%;
+}
+#div3:hover{
+	background-image: url(burj.jpeg);
+	background-size: 100% 100%;
+	}
+
 
 p {
 	padding: 10px;
@@ -31,7 +48,7 @@ p {
 
 section {
 	border:	1px solid black;
-	background-color: #00FF99;
+	background-color: lime;
 	width: 100%;
 	height: auto;
 	font-family: Helvetica;
@@ -40,102 +57,82 @@ section {
 	overflow: auto;
 }
 
-#chicken {
-	border: 1px solid black;
+#paris {
+	border: 2px solid black;
 	text-align: center;
 	width: 30%;
 	margin-left: 70%;
-	font-family: Georgia,sans-serif;
+	font-family: cursive,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: #FFFF00;
+	background-color: pink;
 }
 
-#beef {
-	border: 1px solid black;
+#maldives {
+	border: 2px solid black;
 	text-align: center;
 	width: 30%;
 	margin-left: 70%;
-	font-family: Georgia,sans-serif;
+	font-family: cursive,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: #FF1439;
+	background-color: skyblue;
 }
 
-#sushi {
-	border: 1px solid black;
+#dubai {
+	border: 2px solid black;
 	text-align: center;
 	width: 30%;
 	margin-left: 70%;
-	font-family: Georgia,sans-serif;
+	font-family: cursive,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
-	background-color: #6495ED;
+	background-color: brown;
 	color: white;
 	padding: 5px;
 }
 
-#chicken-div {
+#paris-div {
   margin-bottom: 10px;
   margin-top: 10px;
+  border: 1px solid black;
 }
 
-#beef-div {
+#maldives-div {
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 10px;border: 1px solid black;
 }
 
-#sushi-div {
+#dubai-div {
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 10px;border: 1px solid black;
 }
 
 .navbar-brand {
   font-size: 2em;
   border: 0 0 10px 10px;
-  color: #FFFFFF;
+  color: indigo;
 }
 
 #header-nav {
   border: 0;
-  background-color: #FC5F06;
-  color: #FFFFFF;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 2px solid black;
+  background-color: lightblue;
+
 }
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
-}
-
-.nav-header {
-  background-color: #FFFFFF;
-}
-
-.nav-brand {
-  color: #FFFFFF;
-  font-size: 1.5em;
-}
-
-#nav-list {
-  color: white;
-}
-
-hr {
-  border-color: white;
-}
-
-.item {
-  color: white;
-  font-size: 1.2em;
+  background-color: blue;
 }
